@@ -1,0 +1,12 @@
+h1 {
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Abril Fatface', cursive;
+}
+h3 {
+	color: pink; 
+}
+table,tr,td,th {
+	border: 1px solid black;
+
+}
