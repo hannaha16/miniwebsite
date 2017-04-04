@@ -4,9 +4,14 @@ h1 {
 	font-family: 'Abril Fatface', cursive;
 }
 h3 {
-	color: pink; 
+	color: red; 
 }
 table,tr,td,th {
 	border: 1px solid black;
+
+}
+body{
+
+	background-color: #ccff99;
 
 }
