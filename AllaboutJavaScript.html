@@ -1,0 +1,34 @@
+<head>
+<title>All about JavaScript</title>
+</head>
+<body>
+<h2> Examples of JavaScript incude:</h2>
+<p> 1) Example of how to  Change HTML Content: document.getElementById("demo").innerHTML = "Hello JavaScript";</p>
+<p> 2) Example of how to change HTML styles (CSS): document.getElementById("demo").style.fontSize = "25px";</p>
+<p>or</p>
+<p>document.getElementById('demo').style.fontSize = '25px';</p>
+<p> 3) Example of how you can Hide HTML elements: document.getElementById("demo").style.display = "none";</p>
+<p>or</p>
+<p>document.getElementById('demo').style.display = 'none'; </p>
+<p> 4) Example of how to you can show HTML elements: document.getElementById("demo").style.display = "block";</p>
+<p>or</p>
+<p>document.getElementById('demo').style.display = 'block';</p>
+
+
+<h1>What Can JavaScript Do?</h1>
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">HIide!</button>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Show!</button>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click to enlarge font size!</button>
+
+<input type="text" name="textbox" id="textbox">
+<button type="button" onclick="document.getElementById('demo').innerHTML=document.getElementById('textbox').value">click here</button>
+
+<input type="text" name="text size" id="textsize">
+<button type="button" onclick="document.getElementById('demo').style.color=document.getElementById('textsize').value">click</button> 
+
+</body> 
